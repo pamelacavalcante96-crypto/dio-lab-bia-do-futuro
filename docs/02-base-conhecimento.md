@@ -15,6 +15,7 @@
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
+O produto Fundo Imobiliário (FII) substituiu o Fundo Multimercado, pois pessoalmente me sinto mais confiente em usar apenas produtos financeiros que eu conheço. Assim, poderei validar as respostas da Maya de forma mais assertiva.
 
 ---
 
@@ -23,12 +24,37 @@
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+Os arquivos CSV e JSON são carregados pelo Python no início da execução da assistente, esses dados ficam disponíveis para a Maya consultar durante o atendimento.
+
+```python
+import pandas as pd
+import json
+
+historico = pd.read_csv("historico_atendimento.csv")
+transacoes = pd.read_csv("transacoes.csv")
+
+with open("perfil_investidor.json", "r", encoding="utf-8") as arquivo:
+    perfil_investidor = json.load(arquivo)
+
+with open("produtos_financeiros.json", "r", encoding="utf-8") as arquivo:
+    produtos_financeiros = json.load(arquivo)
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+```text
+DADOS DO CLIENTE:
+
+
+PERFIL DO CLIENTE:
+
+
+TRANSAÇÕES DO CLIENTE:
+
+
+PRODUTOS DISPONÍVEIS PARA ENSINO
+```
 
 ---
 
