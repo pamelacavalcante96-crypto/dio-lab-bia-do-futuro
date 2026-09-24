@@ -2,17 +2,12 @@
 
 ## Dados Utilizados
 
-Descreva se usou os arquivos da pasta `data`, por exemplo:
-
-| Arquivo | Formato | Utilização no Agente |
+| Arquivo | Formato | Para que serve a Maya?|
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Consultar o histórico e dar continuidade ao atendimento. |
+| `perfil_investidor.json` | JSON |Personalizar o atendimento de acordo com o perfil do investidor. |
+| `produtos_financeiros.json` | JSON |Consultar produtos e apresentar opções adequadas ao perfil. |
+| `transacoes.csv` | CSV | Identificar padrões de gastos e movimentações financeiras. |
 
 ---
 
