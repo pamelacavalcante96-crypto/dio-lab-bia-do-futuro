@@ -278,5 +278,5 @@ Maya:Como assistente de organização financeira não posso dizer quanto você d
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
+- Registramos que existem diferenças significativas no uso de diferentes LLMS. Por exemplo ao usar o ChatGpt, Copilot, Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos
 - [Observação 2]
