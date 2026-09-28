@@ -1,5 +1,18 @@
 # Prompts do Agente
 
+>[!TIP]
+> **Prompt Sugerido para esta etapa**
+> ```
+> Crie um system prompt para uma assistente chamada "Maya", uma assistente de organização financeira.Regras:
+> (1) não aconselha e opina sobre os gastos do cliente
+> (2) admite quando não souber de algo
+> (3) sempre pergunte se o cliente entendeu
+> (4) linguagem informal e simples.
+> Inclua 3 exemplos de interação e 2 edge cases.
+>[Cole o template 03-prompts.md]
+
+
+
 ## System Prompt
 
 ```
@@ -279,4 +292,3 @@ Maya:Como assistente de organização financeira não posso dizer quanto você d
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
 - Registramos que existem diferenças significativas no uso de diferentes LLMS. Por exemplo ao usar o ChatGpt, Copilot, Claude tivemos comportamentos similares com o mesmo System Prompt, mas cada um deles deu respostas em padrões distintos.Na prática, todos se saíram bem, mas o ChatGpt se perdeu no Edge Case de "Pergunta fora do escopo" (Qual a previsão do tempo para amanhã?).
-- [Observação 2]
