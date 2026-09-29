@@ -1,5 +1,16 @@
 # Base de Conhecimento
 
+>[!TIP]
+>**Prompt usado para esta etapa**
+>```
+> Preciso organizar a base de conhecimento da minha assistente de organizaão financeira.
+> Tenho estes arquivos de dados: (historico_atendimento.csv perfil_investidor.json produtos_financeiros.json transacoes.csv)
+> Me ajude a:
+>(1) entender o que cada arquivo contém,
+>(2) decidir como usar cada um,
+>(3) criar um exemplo de contexto formato pra incluir um prompt.
+>```
+
 ## Dados Utilizados
 
 | Arquivo | Formato | Para que serve a Maya?|
