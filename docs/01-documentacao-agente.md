@@ -1,5 +1,13 @@
 # Documentação do Agente
 
+[!TIP]
+> **Prompt usado para esta etapa:**
+>```
+> Me ajude a documentar uma assistente de IA de organização financeira. O caso de uso é: organização de gastos problema: Qual problema financeiro seu agente resolve? pessoas que não sabem como organizar o seu dinheiro, ter controle do seu dinheiro e costumam gastar muito.
+> Preciso definir: problema que resolve, público-alvo, personalidade da assistente, tom de voz
+> e estratégias anti-alucinação. Use o template abaixo como base:
+> [cole o template 01-documentacao-agente.md]
+
 ## Caso de Uso
 
 ### Problema
